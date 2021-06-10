@@ -9,8 +9,8 @@ message = """Subject: Your Order has been placed!
 Hi {name}, your order is {order}"""
 i = 1
 
-from_address = "easydegree.2020@gmail.com"
-password = "Easydegree101"
+from_address = "your@email.com"
+password = "your-password"
 context = ssl.create_default_context()
 
 with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
