@@ -16,35 +16,32 @@ G-Aut is a mail automation service for Gmail built on python :heart:.
 **Language:** Python
 
 **Libraries Used:** 
-- csv
-- smtplib
-- ssl
-- email.utils
+- OS
+- argparse
 ## Installation 
 
-1. Clone the current repository
+1. Clone the current repository and install the ssmpt package
 
 ```bash 
   git clone https://github.com/kanitmann/Mail_Automation.git
+  sudo apt install ssmtp
+  nano /etc/ssmtp/ssmtp.conf
 ```
-2. Run requirements.txt
-
-```bash
-  pip install -r requirements.txt
+2. configure the package with your credentials (enter the following credentials in the ssmtp.conf file)
+```
+ mailhub=smtp.gmail.com:587
+ UseSTARTTLS=YES
+ AuthUser=your-email@gmail.com
+ AuthPass=XXXXXXXXXXXXXXX
+ TLS_CA_File=/etc/pki/tls/certs/ca-bundle.crt
   ```
-
-
-## Usage/Examples
-
-- Edit "file.csv" and make required modifications. Further guide to handling the CSV file will be added soon.
-
-- Change line 11 & line 12 to your Gmail Email and password.
-
-- Run Main.py using:
-
-```bash 
-python3 Main.py
+3. Enable insecure apps in your google account settings (you might have to set up app passwords if you have 2 factor authentication)
+4. Run the script
+```bash
+python commandline.py -r <file containing reciever Email IDs (separated by newline)> -f <file containing the email>
 ```
+
+Note: for an example on how to create the email text file, refer to msg.txt
 ## Contributing
 
 Contributions are always welcome!
