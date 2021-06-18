@@ -29,7 +29,7 @@ G-Aut is a mail automation service for Gmail built on python :heart:.
 ```
 2. configure the package with your credentials (enter the following credentials in the ssmtp.conf file)
 ```
-   mailhub=smtp.gmail.com:587
+ mailhub=smtp.gmail.com:587
  UseSTARTTLS=YES
  AuthUser=your-email@gmail.com
  AuthPass=XXXXXXXXXXXXXXX
