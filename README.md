@@ -41,17 +41,7 @@ G-Aut is a mail automation service for Gmail built on python :heart:.
 python commandline.py -r <file containing reciever Email IDs (separated by newline)> -f <file containing the email>
 ```
 
-## Usage/Examples
-
-- Edit "file.csv" and make required modifications. Further guide to handling the CSV file will be added soon.
-
-- Change line 11 & line 12 to your Gmail Email and password.
-
-- Run Main.py using:
-
-```bash 
-python3 Main.py
-```
+Note: for an example on how to create the email text file, refer to msg.txt
 ## Contributing
 
 Contributions are always welcome!
