@@ -1,7 +1,7 @@
 
-# G-Aut :sparkles:
+# Auto Mailer :sparkles:
 
-G-Aut is a mail automation service for Gmail built on python :heart:.
+`Auto Mailer` is a mail automation service for Gmail built on python :heart:.
 ## Badges
 
 ![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg) ![GNU GPL 3.0](https://img.shields.io/github/license/kanitmann/Mail_Automation) [![Stars](https://img.shields.io/github/stars/kanitmann/Mail_Automation)](https://github.com/kanitmann/Mail_Automation/stargazers) [![Issues](https://img.shields.io/github/issues/kanitmann/Mail_Automation)](https://github.com/kanitmann/Mail_Automation/issues) ![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fkanitmann%2FMail_Automation%2F)
